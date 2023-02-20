@@ -1,19 +1,13 @@
-def selects_all_female_bears_return_name_and_age
-  "Write your SQL query here"
-end
+INSERT INTO bears (name,age,sex,color,temperament,alive) VALUES("Mr. Chocolate", 5, "M", "WHITE","sijui",0);
+INSERT INTO bears (name,age,sex,color,temperament,alive) VALUES("Rowdy", 5, "M", "WHITE","sijui",1);
+INSERT INTO bears (name,age,sex,color,temperament,alive) VALUES("Tabitha", 1, "F", "WHITE","sijui",0);
+INSERT INTO bears (name,age,sex,color,temperament,alive) VALUES("Sergeant Brown", 5, "M", "WHITE","sijui",1);
+INSERT INTO bears (name,age,sex,color,temperament,alive) VALUES("Melissa", 4, "F", "WHITE","sijui",1);
+INSERT INTO bears (name,age,sex,color,temperament,alive) VALUES("Grinch", 5, "M", "WHITE","sijui",0);
+INSERT INTO bears (name,age,sex,color,temperament,alive) VALUES("Wendy", 8, "F", "WHITE","sijui",1);
+INSERT INTO bears (name,age,sex,color,temperament,alive) VALUES(NULL, 8, "M", "WHITE","sijui",0);
 
-def selects_all_bears_names_and_orders_in_alphabetical_order
-  "Write your SQL query here"
-end
 
-def selects_all_bears_names_and_ages_that_are_alive_and_order_youngest_to_oldest
-  "Write your SQL query here"
-end
 
-def selects_oldest_bear_and_returns_name_and_age
-  "Write your SQL query here"
-end
 
-def select_youngest_bear_and_returns_name_and_age
-  "Write your SQL query here"
-end
+
